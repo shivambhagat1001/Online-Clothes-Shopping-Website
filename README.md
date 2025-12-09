@@ -37,6 +37,7 @@ Includes a full Admin Panel for managing products, categories, orders, rentals, 
 ---
 
 ## 📂 Project Structure
+
 /project-folder
 /admin
 /assets
@@ -78,10 +79,12 @@ Password: admin123
 ---
 
 📜 License
+
 This project is created for educational purposes.
 Feel free to reuse or modify with proper credit.
 
 ---
 
 ✨ Contributor
+
 Shivam Bhagat
