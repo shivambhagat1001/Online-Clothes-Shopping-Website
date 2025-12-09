@@ -38,19 +38,19 @@ Includes a full Admin Panel for managing products, categories, orders, rentals, 
 
 ## 📂 Project Structure
 
-/project-folder
-/admin
-/assets
-/css
-/js
-/uploads
-index.php
-cart.php
-checkout.php
-payment.php
-rental.php
-tryon.php
-README.md
+- /project-folder
+- /admin
+- /assets
+- /css
+- /js
+- /uploads
+- index.php
+- cart.php
+- checkout.php
+- payment.php
+- rental.php
+- tryon.php
+- README.md
 
 ---
 
