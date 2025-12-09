@@ -1,0 +1,22 @@
+
+USE clothyyy;
+
+CREATE TABLE IF NOT EXISTS payments (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  order_id INT NOT NULL,
+  payment_method VARCHAR(30) NOT NULL,
+  payment_provider VARCHAR(50) DEFAULT NULL,
+  payment_status VARCHAR(30) NOT NULL DEFAULT 'pending',
+  amount DECIMAL(10,2) NOT NULL DEFAULT 0,
+  transaction_id VARCHAR(255) DEFAULT NULL,
+  payment_date DATETIME DEFAULT NULL,
+  notes TEXT DEFAULT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (order_id) REFERENCES orders(id) ON DELETE CASCADE
+);
+
+
+
+
+
