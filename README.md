@@ -71,6 +71,7 @@ Includes the following tables:
 ---
 
 💻 Admin Login (Default)
+
 Username: admin  
 Password: admin123
 
